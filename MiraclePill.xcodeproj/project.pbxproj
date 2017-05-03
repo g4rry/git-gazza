@@ -12,6 +12,7 @@
 		89B88E551D33495F00EA1578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B88E531D33495F00EA1578 /* Main.storyboard */; };
 		89B88E571D33495F00EA1578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89B88E561D33495F00EA1578 /* Assets.xcassets */; };
 		89B88E5A1D33495F00EA1578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89B88E581D33495F00EA1578 /* LaunchScreen.storyboard */; };
+		E0705B4E1EBA37D900B696F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0705B4D1EBA37D900B696F5 /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		89B88E561D33495F00EA1578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89B88E591D33495F00EA1578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89B88E5B1D33495F00EA1578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0705B4D1EBA37D900B696F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				89B88E4F1D33495F00EA1578 /* AppDelegate.swift */,
 				89B88E511D33495F00EA1578 /* ViewController.swift */,
+				E0705B4D1EBA37D900B696F5 /* Assets.xcassets */,
 				89B88E531D33495F00EA1578 /* Main.storyboard */,
 				89B88E561D33495F00EA1578 /* Assets.xcassets */,
 				89B88E581D33495F00EA1578 /* LaunchScreen.storyboard */,
@@ -96,7 +99,7 @@
 				TargetAttributes = {
 					89B88E4B1D33495F00EA1578 = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = NUW936ZHH8;
+						DevelopmentTeam = FUT9TUT33Z;
 						DevelopmentTeamName = "Devslopes, LLC";
 						ProvisioningStyle = Automatic;
 					};
@@ -127,6 +130,7 @@
 			files = (
 				89B88E5A1D33495F00EA1578 /* LaunchScreen.storyboard in Resources */,
 				89B88E571D33495F00EA1578 /* Assets.xcassets in Resources */,
+				E0705B4E1EBA37D900B696F5 /* Assets.xcassets in Resources */,
 				89B88E551D33495F00EA1578 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,6 +262,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUT9TUT33Z;
 				INFOPLIST_FILE = MiraclePill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.MiraclePill;
@@ -270,6 +275,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FUT9TUT33Z;
 				INFOPLIST_FILE = MiraclePill/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.devslopes.MiraclePill;
@@ -297,6 +303,7 @@
 				89B88E601D33495F00EA1578 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
